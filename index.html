@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2475eea6ce.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Diajar</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <a href="#">
+        <img src="assets/Img/Logo/logo-01.png" alt="Logo" class="nav-logo">
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="underline">Beranda</a></li>
+        <li class="nav-item"><a href="#programbelajar" class="underline">Program Belajar</a></li>
+        <li class="nav-item"><a href="#guru" class="underline">Guru</a></li>
+        <li class="nav-item"><a href="#about" class="underline">Tentang</a></li>
+        <li class="nav-item"><a href="#kontak" class="underline">Kontak</a></li>
+      </ul>
+      <div class="humberger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+  </header>
+  <!-- header end -->
+
+  <main>
+
+    <!-- Hero  -->
+    <section>
+      <div class="hero">
+        <div class="hero-text">
+          <h3 class="hero-heading">
+            Selamat Datang Di Website <span class="hero-logo underline">Di Ajar</span> </h3>
+          <h1 class="hero-subheading">
+            Guru Terbaik Siap Membantumu
+          </h1>
+          <p class="hero-paragraph">
+            Pusat les online di sukabumi yang menyediakan
+            layanan les privat untuk semua kalangan
+            mulai dari SD, SMP, SMA hingga jenjang Kuliah.</p>
+          <div class="hero-btn">
+            <button type="button" name="myButton">Daftar</button>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="play">
+              <i class="fa-solid fa-circle-play"></i>
+              Lihat Les
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img src="/assets/Img/heroimages/heroimages.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Metode Pembelajran -->
+    <div class="metode">
+      <div class="metode-card">
+        <div>
+          <h1>
+            Metode Pembelajaran Kami
+          </h1>
+          <article>
+            Terbukti berhasil meningkatkan nilai siswa,
+            melalui pengalaman dan pengembangan lebih dari 7 tahun.
+          </article>
+        </div>
+      </div>
+
+      <div class="metode-artikel">
+
+        <div class="artikel-card" data-aos="fade-down" data-aos-duration="1000">
+          <img src="assets/Img/metodeajar/metode-01.png" alt="ilustrasi" class="img-artikel">
+          <div>
+            <h3 class="artikel-heading">1. EXPERIENCED</h3>
+            <p class="artikel-paragraph">
+              Belajar dengan guru-guru yang berpengalaman dibidangnya.
+              Siswa-siswi akan dibimbing oleh guru sesuai
+              keilmuannya dan berpengalaman.
+            </p>
+          </div>
+        </div>
+
+        <div class="artikel-card" data-aos="fade-up" data-aos-duration="1000">
+          <img src="assets/Img/metodeajar/metode-02.png" alt="ilustrasi" class="img-artikel">
+          <div>
+            <h3 class="artikel-heading">2. PERSONALIZED</h3>
+            <p class="artikel-paragraph">
+              Siswa-siswi fokus mendapatkan pelayanan sesuai kebutuhan dan
+              target belajar yang ingin dicapai.
+              Konsultasikan target belajar kepada tim kami.
+            </p>
+          </div>
+        </div>
+
+        <div class="artikel-card" data-aos="fade-down" data-aos-duration="1000">
+          <img src="assets/Img/metodeajar/metode-03.png" alt="ilustrasi" class="img-artikel">
+          <div>
+            <h3 class="artikel-heading">3. INTEGRATED</h3>
+            <p class="artikel-paragraph">
+              Fokus dan terintegrasi dengan kurikulum sekolah sehingga
+              les privat dapat menjadi solusi terbaik untuk
+              memperdalam atau memperkaya materi.
+            </p>
+          </div>
+        </div>
+
+        <div class="artikel-card" data-aos="fade-up" data-aos-duration="1000">
+          <img src="assets/Img/metodeajar/metode-04.png" alt="ilustrasi" class="img-artikel">
+          <div>
+            <h3 class="artikel-heading">4. LIMITLESS</h3>
+            <p class="artikel-paragraph">
+              Siswa bisa request apa saja yang menjadi kebutuhan, baik itu bertanya soal,
+              drilling soal persiapan ujian,
+              maupun review materi yang belum dipahami.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Metode pembelajaran end -->
+
+
+    <!-- panggil guru  start-->
+    <div class="flex-panggil">
+      <div>
+        <h1>
+          Panggil Guru Terbaik
+        </h1>
+        <p>
+          Lengkap untuk SD, SMP, SMA, Mahasiswa hingga Umum
+        </p>
+      </div>
+    </div>
+
+    <!-- panggil guru end -->
+    <div class="filter-card" id="programbelajar">
+      <div id="myBtnContainer">
+        <button class="btn1 active" onclick="filterSelection('all')"> Semua</button>
+        <button class="btn1" onclick="filterSelection('sd')"> SD</button>
+        <button class="btn1" onclick="filterSelection('smp')"> SMP</button>
+        <button class="btn1" onclick="filterSelection('sma')"> SMA</button>
+        <button class="btn1" onclick="filterSelection('kuliah')"> KULIAH</button>
+      </div>
+
+      <div class="container">
+
+        <!-- kuliah start -->
+        <div class="filterDiv kuliah card" data-aos="fade-left" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/gurucoding.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> Kuliah & Umum </h4>
+              <h1> Rp250,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Front End Web Developer. </h3>
+              <p> Belajar bersama guru spesialis web developer lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 10 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 250 + Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv kuliah card" data-aos="fade-down" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/gurudesign.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> Kuliah & Umum </h4>
+              <h1> Rp250,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Ui Ux Designer. </h3>
+              <p> Belajar bersama guru spesialis Ui Ux Designer lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 10 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 250 + Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv kuliah card" data-aos="fade-left" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/kuliah.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> Kuliah & Umum </h4>
+              <h1> Rp250,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Fisika Dasar. </h3>
+              <p> Belajar bersama guru spesialis Fisika Dasar lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 10 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 250 + Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv kuliah card" data-aos="fade-right" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/sma.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> Kuliah & Umum </h4>
+              <h1> Rp250,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Matematika Diskrit. </h3>
+              <p> Belajar bersama guru spesialis Matematika Diskrit lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 10 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 250 + Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+        <!-- kuliah end -->
+
+        <!-- sd start -->
+        <div class="filterDiv sd card" data-aos="fade-down" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/gurusd.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> SD kelas 1 s.d kelas 3 </h4>
+              <h1> Rp150,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Belajar Baca Tulis Hitung. </h3>
+              <p> Belajar bersama guru spesialis calistung lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 10 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 250 + Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv sd card" data-aos="fade-left" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/gurusd.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> SD kelas 4 s.d kelas 6 </h4>
+              <h1> Rp150,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Belajar IPA. </h3>
+              <p> Belajar bersama guru spesialis calistung lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 10 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 250 + Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+        <!-- sd end -->
+
+        <!-- smp start -->
+        <div class="filterDiv smp card" data-aos="fade-right" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/gurumtk.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> SMP Sederajat </h4>
+              <h1> Rp200,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Matematika. </h3>
+              <p> Belajar bersama guru spesialis Matematika lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 15 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 2K Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+        <!-- smp end -->
+
+        <!-- SMA start -->
+        <div class="filterDiv sma card" data-aos="fade-down" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/gurusmp.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> SMA Sederajat </h4>
+              <h1> Rp200,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Matematika. </h3>
+              <p> Belajar bersama guru spesialis Matematika lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 15 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 2K Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv sma card" data-aos="fade-left" data-aos-duration="1000">
+          <div class="card-images">
+            <img src="assets/Img/guru/smp.jpg" alt="guru" class="card-img">
+          </div>
+          <div class="card-heading">
+            <div class="card-price">
+              <h4> SMA Sederajat </h4>
+              <h1> Rp200,000 </h1>
+            </div>
+            <div class="card-title">
+              <h3> Akuntansi. </h3>
+              <p> Belajar bersama guru spesialis Akuntansi lewat offline datang ke rumah atau online. </p>
+            </div>
+            <div class="card-student">
+              <div>
+                <i class=" card-icon fa-solid fa-book-open-reader"></i> 15 + Guru </div>
+              <div> <i class=" card-icon fa-solid fa-users"></i> 2K Murid </div>
+            </div>
+            <div class="card-button">
+              <div class="card-rating">
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class="start fa-solid fa-star"></i>
+                <i class=" start fa-solid fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="myButton">Hubungi</a>
+            </div>
+          </div>
+        </div>
+        <!-- SMA end -->
+      </div>
+    </div>
+
+    <!-- Temukan guru terbaik start-->
+    <div class="container-guru-terbaik" id="guru">
+      <div class="wrap-guru">
+        <h1>
+          Temukan Guru Terdekat Dan Terbaik Darimu
+        </h1>
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Card Start -->
+          <div class="swiper-slide card-guru">
+            <img src="assets/Img/temukanguru/sd.png" alt="guru-guru">
+            <div class="heading-card">
+              <h1>Guru privat SD</h1>
+              <div class="btn-card">
+                <a href="#" class="btn-guru">Cari Guru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card-guru">
+            <img src="assets/Img/temukanguru/sma.png" alt="guru-guru">
+            <div class="heading-card">
+              <h1>Guru privat SMA</h1>
+              <div class="btn-card">
+                <a href="#" class="btn-guru">Cari Guru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card-guru">
+            <img src="assets/Img/temukanguru/smp.png" alt="guru-guru">
+            <div class="heading-card">
+              <h1>Guru privat SMP</h1>
+              <div class="btn-card">
+                <a href="#" class="btn-guru">Cari Guru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card-guru">
+            <img src="assets/Img/temukanguru/tk.png" alt="guru-guru">
+            <div class="heading-card">
+              <h1>Guru privat TK</h1>
+              <div class="btn-card">
+                <a href="#" class="btn-guru">Cari Guru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card-guru">
+            <img src="assets/Img/temukanguru/umum.png" alt="guru-guru">
+            <div class="heading-card">
+              <h1>Guru privat UMUM</h1>
+              <div class="btn-card">
+                <a href="#" class="btn-guru">Cari Guru</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card-guru">
+            <img src="assets/Img/temukanguru/utbk.png" alt="guru-guru">
+            <div class="heading-card">
+              <h1>Guru privat UTBK</h1>
+              <div class="btn-card">
+                <a href="#" class="btn-guru">Cari Guru</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Temukan guru terbaik end -->
+
+      <aside>
+        <div class="testimonial">
+          <h2>Testimonial</h2>
+        </div>
+        <div class="testimonial-card">
+          <div class="card-testi">
+            <img src="assets/Img/testimoni/tesimoni1.png" alt="">
+            <div class="testi-heading">
+              <article>
+                Semenjak Belajar disini saya jadi bisa lolos UTBK,
+                dengan skor yang sangat memuaskan, terimakasih
+                DIAJAR, platform belajar yang bagus banget
+              </article>
+              <h1>Sumiati</h1>
+              <h3>Lulusan Terbaik UTBK 2020</h3>
+            </div>
+          </div>
+          <div class="card-testi">
+            <img src="assets/Img/testimoni/testimoni2.png" alt="">
+            <div class="testi-heading">
+              <article>
+                Berkat di ajar saya bisa menjadi lulusan
+                terbaik di Universitas Indonesia.
+              </article>
+              <h1>Yeyet </h1>
+              <h3>Lulusan Terbaik UI 2021</h3>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="about" id="about">
+      <div class="img-about">
+        <img src="assets/Img/heroimages/tentang.svg" alt="">
+      </div>
+      <div class="about-heading">
+        <h1>Akses ke segalanya untuk semua orang</h1>
+        <p>
+          30 Hari Prestasi dan Kemampuan Meningkat
+          Ayo Tunggu Apalagi. Panggil Guru Kami Sekarang
+        </p>
+        <div class="about-card">
+          <div class="check-about">
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>kelas dunia</h2>
+          </div>
+          <div class="check-about">
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>Guru berpengalaman di bidangnya</h2>
+          </div>
+          <div class="check-about">
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>fleksibel</h2>
+          </div>
+          <div class="check-about">
+            <i class="fa-solid fa-circle-check"></i>
+            <h2>Harga Terjangkau</h2>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="kontak">
+      <div class="contact-card">
+        <div class="contact-img">
+          <img src="assets/Img/contact/profil.png" alt="sahrulsidikp">
+        </div>
+        <div class="contac-ket">
+          <h2>Hi Nama Saya Sahrul Sidik Permana</h2>
+          <p>
+            saya adalah seorang fresh graduate dan junior front end web developer, <br>
+            menguasi HTML, CSS, JS, dan framework TailwindCss, <br>
+            serta menguasi Ai, Ps, dan 3D Blender.
+          </p>
+          <div class="sosmed-card">
+            <h2>Terhubung Dengan Saya</h2>
+            <a href="https://twitter.com/sahrulbudaya"><i class="contact-brands fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sahrulbudaya/"><i class="contact-brands fa-brands fa-instagram"></i></a>
+            <a href="https://web.facebook.com/sahrulperman/"><i class="contact-brands fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-card">
+      <h3>Contac Us</h3>
+      <a href="#" class="card-a"><i class="fa-solid fa-phone"></i>
+        <span>+123-456-789</span> </a>
+      <a href="#" class="card-a"><i class="fa-solid fa-envelope"></i>
+        <span>Diajar@gmail.com</span> </a>
+    </div>
+    <div class="footer-card">
+      <h3>Quick Links</h3>
+      <a href="#beranda" class="card-a">
+        <span>Beranda</span>
+      </a>
+      <a href="#programbelajar" class="card-a">
+        <span>Program Belajar</span> </a>
+      <a href="#guru" class="card-a">
+        <span>Guru</span> </a>
+      <a href="#about" class="card-a">
+        <span>Tentang</span></a>
+      <a href="#footer" class="card-a">
+        <span>Kontak</span></a>
+    </div>
+    <div class="footer-card">
+      <h3>Follow Us</h3>
+      <a href="#" class="card-a"><i class="fa-brands fa-instagram"></i>
+        <span>@Diajar</span> </a>
+      <a href="#" class="card-a"><i class="fa-brands fa-facebook-square"></i>
+        <span>Diajar Learning</span></a>
+      <a href="#" class="card-a"><i class="fa-brands fa-twitter-square"></i>
+        <span>DiajarLearning</span></a>
+    </div>
+    <div class="footer-card">
+      <h3>Pt Alim Rugi Hyong Untung</h3>
+      <img src="assets/Img/Logo/logo-01.png" alt="">
+      <p>
+        Jln.in aja dulu xixi
+      </p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
